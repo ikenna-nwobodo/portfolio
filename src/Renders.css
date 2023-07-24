@@ -1,0 +1,19 @@
+.renders {
+  background-color: transparent;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+@media (max-width: 768px) {
+  .renders {
+    background-color: transparent;
+    width: 100%;
+    gap: 1rem;
+  }
+}
+@media (max-width: 1025px) {
+  .renders {
+    width: 90%;
+  }
+}

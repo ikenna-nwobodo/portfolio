@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: #41644a; */
+  background: rgba(65, 100, 74, 0.25);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: rgba(65, 100, 74, 0.9);
+  padding: 0.6rem 2rem;
+  font-weight: 500;
+  gap: 6px;
+  border-top-left-radius: 0.6rem;
+  border-top-right-radius: 0.6rem;
+}
+#year {
+  background-color: transparent !important;
+  color: rgba(65, 100, 74, 0.9);
+}
+@media (max-width: 768px) {
+  #year {
+    display: flex;
+  }
+}
