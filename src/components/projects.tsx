@@ -1,6 +1,6 @@
 import "./projects.css";
 
-function Projects() {
+function Projects(props: any) {
   return (
     <div className="projects">
       <h2>Projects</h2>

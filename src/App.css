@@ -15,8 +15,20 @@
     background-color: #eeeeee;
     background-image: url("./images/bg/fds.png");
     background-size: cover;
-    overflow-x: hidden;
-    background-repeat: no-repeat;
     /* padding-top: 2rem; */
+  }
+}
+@media (max-width: 426px) {
+  .main {
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    /* background-color: red; */
+    background-image: url("./images/bg/fds.png");
+    background-repeat: no-repeat;
+    background-size: cover;
   }
 }

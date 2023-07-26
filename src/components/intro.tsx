@@ -1,7 +1,7 @@
 import "./intro.css";
 import "animate.css";
 
-function Intro() {
+function Intro(props: any) {
   return (
     <div className="top">
       <h1 className="animate__animated animate__slideInDown">Nwobodo Ikenna</h1>
