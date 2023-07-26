@@ -1,6 +1,6 @@
 import "./skills.css";
 
-function Skills() {
+function Skills(props: any) {
   return (
     <div className="skills">
       <h2>Skills</h2>
