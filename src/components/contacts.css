@@ -27,12 +27,11 @@
   border-radius: 1rem;
   cursor: pointer;
   /* From https://css.glass */
-  background: rgba(132, 156, 138, 0.38);
+  background: rgba(255, 255, 255, 0.2);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(14.9px);
   -webkit-backdrop-filter: blur(14.9px);
-  border: 1px solid rgba(132, 156, 138, 0.43);
 }
 .contact a:hover {
   background-color: #41644a;
@@ -41,7 +40,7 @@
 }
 .contact a:hover i,
 .contact a:hover .scm {
-  color: white;
+  color: #b4b1dc;
 }
 .contact a i {
   font-size: 30px;
@@ -60,7 +59,7 @@
     display: none;
   }
   .contact a {
-    padding: 1rem;
+    padding: 0rem;
     border-radius: 0.5rem;
   }
   .contact a:hover i {
