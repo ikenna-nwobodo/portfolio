@@ -2,6 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  z-index: 10;
+  position: relative;
   gap: 2rem;
 }
 .skills h2 {
@@ -22,9 +24,21 @@
   /* justify-content: space-between; */
   width: 80%;
   gap: 1rem;
-  border: 2px solid #41644a;
+  /* border: 2px solid #41644a; */
   border-radius: 1rem;
   padding: 2rem;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.9px);
+  -webkit-backdrop-filter: blur(14.9px);
+  /* From https://css.glass */
+  /* background: rgba(132, 156, 138, 0.38);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14.9px);
+  -webkit-backdrop-filter: blur(14.9px);
+  border: 1px solid rgba(132, 156, 138, 0.43); */
 }
 .skill h2 {
   font-size: 40px;
@@ -117,7 +131,17 @@ span {
     color: white;
   }
 }
-@media (max-width: 426px) {
+@media (max-width: 535px) {
+  .tech-list {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    gap: 1rem;
+    height: auto;
+    overflow-y: auto;
+    padding-left: none !important;
+  }
+}
+@media (max-width: 439px) {
   .tech-list {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
@@ -127,6 +151,7 @@ span {
     padding-left: none !important;
   }
 }
+
 @media (max-width: 376px) {
   .tech-list {
     display: grid;

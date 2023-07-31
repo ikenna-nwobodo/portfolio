@@ -5,9 +5,15 @@
   display: grid;
   place-items: center;
   min-height: 100vh;
-  background-image: url("./images/bg/bglonger.png");
+  /* background-image: url("./images/bg/bglonger.png"); */
   background-repeat: no-repeat;
   background-size: cover;
+}
+video {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 @media (max-width: 768px) {
   .main {
